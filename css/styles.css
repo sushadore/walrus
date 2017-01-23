@@ -1,11 +1,23 @@
-.sidebar {
-  width: %30;
-  float: right;
-  background-color: yellow;
-}
 
 img.main {
   float: left;
+}
+
+.main .sidebar {
+  width: 300px;
+  float: right;
+  border: solid blue;
+  background-color: #5180B0;
+  color: white;
+}
+
+.sidebar {
+  width: %30;
+  float: right;
+  border: solid black;
+  padding-left: 10px;
+  background-color: grey;
+  color: white;
 }
 
 .column {
